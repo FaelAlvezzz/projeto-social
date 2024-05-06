@@ -38,7 +38,26 @@ main {
     position: relative;
     top: 79px;
     left: 22px;
-
     width: 270px;
     height: 473px;
+}
+
+section#rede-sociais {
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+section#rede-sociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+}
+
+section#rede-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.627);
+    transform: translate(-10px, -10px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.600);
+    transition: transform .6s border .1s;
 }
